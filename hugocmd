@@ -1,0 +1,5 @@
+hugo --theme=anubis --baseUrl="https://godeamon.github.io" --buildDrafts
+
+hugo new post/about-me.md
+
+hugo server -t anubis --buildDrafts

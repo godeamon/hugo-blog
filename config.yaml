@@ -1,0 +1,37 @@
+languageCode: "en-us"
+baseUrl: "https://godeamon.com"
+title: "Attitude is altitude"
+theme: "anubis"
+paginate: 10
+disqusShortname: yourdiscussshortname
+googleAnalytics: UA-123-45
+
+menu:
+  main:
+  - identifier: Archive
+    name: Archive 
+    title: Archive
+    url: /post/
+    weight: 0
+  - identifier: About
+    name: About
+    title: About
+    url: /post/about-me
+    weight: 0
+  - identifier: Plan
+    name: Plan
+    title: Plan
+    url: /post/plan
+    weight: 0
+  - identifier: Reading
+    name: Reading
+    title: Reading
+    url: /post/reading
+    weight: 0
+
+params:
+  author: "李明磊"
+  description: "区块链、Go"
+  images:
+    - /gopher.png
+  moreMeta : true
